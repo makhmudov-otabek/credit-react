@@ -1,6 +1,10 @@
 import Image from "next/image";
 import HomeImg from "@/public/home.png";
-import DavrBank from "@/public/bank.webp";
+import DavrBank from "@/public/davrbank.png";
+import Hamkor from "@/public/Main-logo-1dd.webp";
+import Ipoteka from "@/public/ipotekabank.webp";
+import Ofb from "@/public/ofb.webp";
+import Kapital from "@/public/kapital.svg";
 export default function Home() {
   return (
     <div id="home" className="w-full bg-[#00a7cc2b] px-8 py-18">
@@ -18,12 +22,12 @@ export default function Home() {
             beramiz.
           </p>
 
-          <div className="flex gap-4">
-            <Image width={60} alt="Bank" src={DavrBank} />
-            <Image width={60} alt="Bank" src={DavrBank} />
-            <Image width={60} alt="Bank" src={DavrBank} />
-            <Image width={60} alt="Bank" src={DavrBank} />
-            <Image width={60} alt="Bank" src={DavrBank} />
+          <div className="flex items-center flex-wrap gap-4">
+            <Image width={100} alt="Bank" src={DavrBank} />
+            <Image width={100} alt="Bank" src={Hamkor} />
+            <Image width={100} alt="Bank" src={Ipoteka} />
+            <Image width={100} alt="Bank" src={Kapital} />
+            <Image className="ms-4" width={170} alt="Bank" src={Ofb} />
           </div>
         </div>
       </div>
