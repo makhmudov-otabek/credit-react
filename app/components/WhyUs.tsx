@@ -10,7 +10,7 @@ export default function WhyUs() {
         Nega aynan biz ?
       </p>
       <div className="w-full flex justify-between gap-6 flex-wrap">
-        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-12 py-6 border-b-4 border-b-[#00A8CC]">
+        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-6 md:px-12 py-6 border-b-4 border-b-[#00A8CC]">
           <Image className="m-auto" alt="" src={Why1} />
           <p className="text-xl font-bold">
             Kredit rasmiylashtirish – 1 kun ichida
@@ -21,7 +21,7 @@ export default function WhyUs() {
             qilishga yordam beradi.
           </p>
         </div>
-        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-12 py-6 border-b-4 border-b-[#00A8CC]">
+        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-6 md:px-12 py-6 border-b-4 border-b-[#00A8CC]">
           <Image className="m-auto" alt="" src={Why2} />
           <p className="text-xl font-bold">Past foizli kredit (15% – 17%)</p>
           <p>
@@ -31,7 +31,7 @@ export default function WhyUs() {
             soddalashtiramiz.
           </p>
         </div>
-        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-12 py-6 border-b-4 border-b-[#00A8CC]">
+        <div className="md:flex-3/12 flex-1 flex flex-col gap-8 bg-white px-6 md:px-12 py-6 border-b-4 border-b-[#00A8CC]">
           <Image className="m-auto" alt="" src={Why3} />
           <p className="text-xl font-bold">
             Kredit rasmiylashtirish – 1 kun ichida
